@@ -1,0 +1,48 @@
+#pagination-controls{
+    text-align: center;
+}
+
+body{
+    display: flex;
+}
+
+#add-user-form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+margin-top: 50%;
+    width: 300px;
+    padding: 20px;
+    background-color: #eceaea; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+#add-user-form input,
+#add-user-form button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+#add-user-form input {
+    background-color: #333; 
+    color: #fff;
+}
+
+#add-user-form input::placeholder {
+    color: #ffffff; 
+}
+
+#add-user-form button {
+    background-color: #444; 
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#add-user-form button:hover {
+    background-color: #555; 
+}
